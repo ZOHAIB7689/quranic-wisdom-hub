@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Link from 'next/link'
-import { CardDescription, HoverEffect } from './ui/card-hover-effect'
+import {  HoverEffect } from './ui/card-hover-effect'
 
 function UpcomingWebinars() {
   const upcomingWebinars = [

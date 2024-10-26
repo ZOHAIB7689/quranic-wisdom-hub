@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
-import Image from "next/image";
 
 
 
@@ -39,7 +38,7 @@ function WhyChooseUs() {
 
   return (
     <div className="">
-      <StickyScroll contentClassName="overflow-y-scroll no-scrollbar" content={content} />
+      <StickyScroll  content={content} />
     </div>
   )
 }
