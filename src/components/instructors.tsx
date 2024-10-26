@@ -1,5 +1,4 @@
 "use client"
-import Image from 'next/image';
 import React from 'react'
 import { WavyBackground } from './ui/wavy-backgound'
 import { AnimatedTooltip } from './ui/animated-tooltip';

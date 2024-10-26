@@ -4,7 +4,6 @@ import React from "react";
 import CourseData from "../data/courses.json";
 import Link from "next/link";
 import { BackgroundGradient } from "./ui/background-gradient";
-import { div } from "framer-motion/client";
 
 
 

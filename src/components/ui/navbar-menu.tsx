@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, Transition } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 
-const transition = {
+const transition: Transition = {
   type: "spring",
   mass: 0.5,
   damping: 11.5,
@@ -109,9 +109,10 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+export const HoveredLink = ({ children, href, ...rest }: { children: React.ReactNode; href: string; [key: string]: any }) => {
   return (
     <Link
+      href={href}
       {...rest}
       className="text-neutral-700 dark:text-neutral-200 hover:text-black "
     >

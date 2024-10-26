@@ -4,7 +4,6 @@ import Instructors from "@/components/instructors";
 import Testimonials from "@/components/testimonials";
 import UpcomingWebinars from "@/components/upcoming-webinars";
 import WhyChooseUs from "@/components/why-choose-us";
-import Image from "next/image";
 
 export default function Home() {
   return (
