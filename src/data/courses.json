@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Quran Basics",
+      "slug": "quran-basics",
+      "description": "Gain a solid foundation in Quranic reading with this comprehensive course designed for beginners. Learn essential skills to confidently begin your journey with the Quran.",
+      "price": 49.99,
+      "instructor": "Sheikh Ahmed",
+      "isFeatured": true,
+      "image": "/Quran.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Tajweed Essentials",
+      "slug": "tajweed-essentials",
+      "description": "Master the core principles of Tajweed to enhance your Quranic recitation. This course focuses on the proper articulation and pronunciation of Quranic verses.",
+      "price": 59.99,
+      "instructor": "Ustadh Fatimah",
+      "isFeatured": false,
+      "image": "/tajweed.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Hifz Program",
+      "slug": "hifz-program",
+      "description": "Begin your memorization journey with our structured Hifz program, tailored to guide you step-by-step in committing the Quran to memory.",
+      "price": 99.99,
+      "instructor": "Hafiz Bilal",
+      "isFeatured": true,
+      "image": "/hifz.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Recitation Mastery",
+      "slug": "recitation-mastery",
+      "description": "Achieve fluency and eloquence in Quranic recitation with advanced techniques and personalized feedback. Perfect your recitation for both personal practice and public recitations.",
+      "price": 79.99,
+      "instructor": "Sheikh Abdullah",
+      "isFeatured": false,
+      "image": "/kid.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Kids Tajweed",
+      "slug": "kids-tajweed",
+      "description": "An engaging and easy-to-follow Tajweed course for children. This course introduces young learners to the correct recitation of the Quran in a fun and interactive way.",
+      "price": 39.99,
+      "instructor": "Ustadh Ayesha",
+      "isFeatured": true,
+      "image": "/kid-tajweed.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Quranic Arabic",
+      "slug": "quranic-arabic",
+      "description": "Unlock the language of the Quran by learning essential Arabic grammar and vocabulary. This course helps you understand the deeper meanings of the Quranic text.",
+      "price": 69.99,
+      "instructor": "Dr. Yusuf",
+      "isFeatured": true,
+      "image": "/grammar.jpeg"
+    },
+    {
+      "id": 7,
+      "title": "Tafseer Essentials",
+      "slug": "tafseer-essentials",
+      "description": "Deepen your understanding of the Quran with an introductory course on Tafseer, exploring the historical, linguistic, and contextual meanings of Quranic verses.",
+      "price": 89.99,
+      "instructor": "Mufti Khalid",
+      "isFeatured": false,
+      "image": "/tafseer.jpeg"
+    },
+    {
+      "id": 8,
+      "title": "Advanced Tajweed",
+      "slug": "advanced-tajweed",
+      "description": "Refine your recitation with advanced Tajweed rules. This course focuses on perfecting pronunciation and fluency for a more precise and beautiful Quranic recitation.",
+      "price": 79.99,
+      "instructor": "Sheikh Haroon",
+      "isFeatured": true,
+      "image": "/Quran.jpeg"
+    },
+    {
+      "id": 9,
+      "title": "Quranic Duas",
+      "slug": "quranic-duas",
+      "description": "Memorize and understand key supplications (Duas) from the Quran that can be used in daily life. This course provides spiritual insight and practical applications for each Dua.",
+      "price": 49.99,
+      "instructor": "Ustadh Zaynab",
+      "isFeatured": false,
+      "image": "/dua.jpeg"
+    },
+    {
+      "id": 10,
+      "title": "Quranic Tafseer for Kids",
+      "slug": "quranic-tafseer-for-kids",
+      "description": "Introduce your child to the meaning and beauty of Quranic verses. This kid-friendly Tafseer course is designed to make learning fun and engaging for young learners.",
+      "price": 39.99,
+      "instructor": "Ustadh Hadiyah",
+      "isFeatured": true,
+      "image": "/01.jpeg"
+    }
+  ]
+}
