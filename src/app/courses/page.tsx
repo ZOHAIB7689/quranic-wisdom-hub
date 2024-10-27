@@ -4,7 +4,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Link from "next/link";
 import courseData from "@/data/courses.json"
-
+import Image from "next/image";
 
 export default function Courses() {
   return (
@@ -29,7 +29,7 @@ export default function Courses() {
         {course.description}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <img
+          <Image
             src={course.image}
             height="1000"
             width="1000"
