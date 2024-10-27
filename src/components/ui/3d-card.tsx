@@ -23,7 +23,7 @@ export const CardContainer = ({
   containerClassName?: string;
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [isMouseEntered, setIsMouseEntered] = useState(false);
+  const [isMouseEntered, setIsMouseEntered] = useState<boolean>(false);
 
   const handleMouseMove = () => {
     if (!containerRef.current) return;
